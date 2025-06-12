@@ -17,7 +17,7 @@ function AddTransactionForm({postTransaction}) {
     <div className="ui segment">
       <form className="ui form" onSubmit={(e)=>{submitForm(e)}}>
         <div className="inline fields">
-          <input type="date" name="date" />
+          <input type="date" name="date" placeholder="Date" />
           <input type="text" name="description" placeholder="Description" />
           <input type="text" name="category" placeholder="Category" />
           <input type="number" name="amount" placeholder="Amount" step="0.01" />

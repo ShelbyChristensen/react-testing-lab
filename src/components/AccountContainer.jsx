@@ -33,14 +33,17 @@ function AccountContainer() {
   }
 
   // Filter using search here and pass new variable down
-  
+  const filteredTransactions = transactions.filter((t) =>
+  t.description.toLowerCase().includes(search.toLowerCase())
+);
 
   return (
     <div>
       <Search setSearch={setSearch}/>
       <AddTransactionForm postTransaction={postTransaction}/>
       <Sort onSort={onSort}/>
-      <TransactionsList transactions={transactions} />
+      <TransactionsList transactions={filteredTransactions} />
+
     </div>
   );
 }

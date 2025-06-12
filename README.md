@@ -93,3 +93,14 @@ Before we begin coding, let's complete the initial setup for this lesson:
 - The application tests if a new transaction can be added.
 - The application tests if search functionality updates the page correctly.
 
+## Tests
+
+Vitest test suites cover:
+
+- Displaying transactions
+- Adding transactions (and checking POST calls)
+- Searching and filtering transactions
+
+To run tests:
+
+npm run test

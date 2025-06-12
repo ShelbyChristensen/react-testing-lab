@@ -10,9 +10,10 @@
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",
+    "json-server": "^1.0.0-beta.3",
+    "path": "^0.12.7",
     "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "json-server": "^1.0.0-beta.3"
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@testing-library/jest-dom": "^6.6.3",
